@@ -2,5 +2,5 @@ language: java
 jdk: openjdk17
 
 script:
-    - javac Calculator.java
-    - java Calculator
+     Calculator test
+     Calculator run build
