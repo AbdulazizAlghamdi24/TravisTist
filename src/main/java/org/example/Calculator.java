@@ -8,7 +8,7 @@ public class Calculator {
 
     public String getGradeLetter(int grade) {
         if(grade < 0|| grade >100){
-            throw new IllegalArgumentException("Grades can not below 0 and above 100.");
+            throw new IllegalArgumentException("Grades can not be below 0 and above 100.");
         }
         else if (grade >=0 && grade < 60){
             return "F";
